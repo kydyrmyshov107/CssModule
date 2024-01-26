@@ -1,0 +1,46 @@
+.btn {
+  margin-left: 12px;
+}
+
+.close {
+  text-decoration: line-through;
+  color: gray;
+}
+.cards {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-top: 100px;
+  gap: 30px;
+}
+
+.list {
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border: 1px solid rgb(3, 0, 30);
+
+  border-radius: 20px;
+  background: rgb(22, 22, 59);
+  box-shadow: 60px 30px 60px 0 rgb(5, 27, 128);
+}
+.list img {
+  width: 200px;
+  border-radius: 10px;
+  display: flex;
+}
+.title {
+  color: white;
+}
+.list:hover {
+  background: rgb(51, 12, 12);
+  box-shadow: 60px 30px 60px 0 black;
+  border-radius: 20px;
+}
+.card {
+  margin-top: 20px;
+  margin-left: 30px;
+}

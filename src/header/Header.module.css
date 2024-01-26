@@ -1,0 +1,13 @@
+.Header {
+  height: 80px;
+  font-size: 34px;
+  color: white;
+  background: rgb(25, 25, 77);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+}
+.movie {
+  font-size: 43px;
+}
